@@ -1,4 +1,4 @@
-# (モック)HTML
+# マニュアル
 https://manual.sunroxedm.co.jp.webservice-dev.com
 
 ### Basic認証
