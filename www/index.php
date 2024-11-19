@@ -1,2 +1,2 @@
 <?php
-print('ここがwebrootになります。');
+print('ここがwebrootになります。1');
