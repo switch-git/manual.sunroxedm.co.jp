@@ -1,0 +1,10 @@
+version: '3.4'
+services:
+  web:
+    restart: ${RESTART}
+    build: ./
+    ports:
+      - '${WEB_PORT}:80'
+    privileged: true
+    volumes:
+      - ./../www/:/var/www/html:delegated
