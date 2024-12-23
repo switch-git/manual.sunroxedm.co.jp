@@ -34,3 +34,10 @@ cp -r ./env/ ./
 cd docker
 docker compose up -d
 ```
+
+### MySQL(Dockerを使う場合)
+| データベース | ユーザー | パスワード | ホスト              | ポート              |
+|--------|--------| ------------- |------------------|------------------|
+| sunroxedm_manual_db | sunroxedm_manual | sunroxedm_manual | mysql | 3306 |
+
+※ローカルは127.0.0.1:2468

@@ -8,3 +8,21 @@ services:
     privileged: true
     volumes:
       - ./../www/:/var/www/html:delegated
+  mysql:
+    restart: ${RESTART}
+    image: mysql:5.7
+    command:
+      - --sql-mode=NO_ENGINE_SUBSTITUTION
+    environment:
+      MYSQL_DATABASE: sunroxedm_manual_db
+      MYSQL_USER: sunroxedm_manual
+      MYSQL_PASSWORD: sunroxedm_manual
+      MYSQL_ROOT_PASSWORD: sunroxedm_manual
+    ports:
+      - "${MYSQL_PORT}:3306"
+  mailhog:
+    restart: ${RESTART}
+    image: mailhog/mailhog
+    container_name: sunroxedm_manual_mailhog
+    ports:
+      - "${MAIL_PORT}:8025"
