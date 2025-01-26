@@ -39,6 +39,9 @@ Thumbs.db
 **/yarn.lock
 **/vendor/*
 
+# wp
+/www/wp-config.php
+
 /docker/.env
 /www/.htaccess
 /www/.htpasswd
