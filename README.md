@@ -6,6 +6,13 @@ https://manual.sunroxedm.co.jp.webservice-dev.com
 | ------------- | ------------- |
 | switch | switch |
 
+### 管理画面
+https://manual.sunroxedm.co.jp.webservice-dev.com/
+
+| メールアドレス | パスワード | 
+|---------|-------|
+| xxxx    | xxxxx |
+
 ※仮で設置しています。
 
 ***
@@ -41,3 +48,10 @@ docker compose up -d
 | sunroxedm_manual_db | sunroxedm_manual | sunroxedm_manual | mysql | 3306 |
 
 ※ローカルは127.0.0.1:2468
+
+### 管理画面
+http://127.0.0.1:8468/
+
+| メールアドレス | パスワード | 
+|---------|-------|
+| xxxx    | xxxxx |
