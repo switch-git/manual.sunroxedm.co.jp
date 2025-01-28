@@ -7,11 +7,11 @@ https://manual.sunroxedm.co.jp.webservice-dev.com
 | switch | switch |
 
 ### 管理画面
-https://manual.sunroxedm.co.jp.webservice-dev.com/
+https://manual.sunroxedm.co.jp.webservice-dev.com/wp-admin/
 
-| メールアドレス | パスワード | 
+| メールアドレス | パスワード |
 |---------|-------|
-| xxxx    | xxxxx |
+| sunroxedm    | TBZphQm3bRxVWj$Lr6 |
 
 ※仮で設置しています。
 
