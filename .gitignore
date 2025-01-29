@@ -41,6 +41,7 @@ Thumbs.db
 
 # wp
 /www/wp-config.php
+/www/wp-content/plugins/duplicate-post/*
 
 /docker/.env
 /www/.htaccess
